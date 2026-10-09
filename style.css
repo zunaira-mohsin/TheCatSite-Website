@@ -1,0 +1,42 @@
+.heading{ 
+     font-family: "Momo Signature", cursive;
+ } 
+ .heroImg{
+     transition: 1s;
+ }
+.heroImg:hover{
+    transform: scaleX(1.1);
+    cursor: pointer;
+}
+.heading2{
+     font-family: "Momo Signature", cursive;
+     font-size: 20px;
+     color: black;
+}
+.imgs{
+    transition: 1s;
+}
+.imgs:hover{
+transform: scale(1.2);
+cursor: pointer;
+}
+.card{
+    box-shadow: 10px 10px 15px gray;
+}
+.img2{
+  transition: 1s;
+}
+.img2:hover{
+  transform: scale(1.2);
+cursor: pointer;
+}
+.about-video{
+  width: 500px;
+  height: 400px;
+}
+.btn2{
+transition-duration: 1s;
+}
+.btn2:hover{
+  transform: translateX(-20px)
+}

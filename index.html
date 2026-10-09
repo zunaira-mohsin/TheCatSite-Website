@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>TheCatSite</title>
+    <link rel="stylesheet" href="style.css">
+       <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="shortcut icon" href="images/catIcon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Birthstone&family=Clicker+Script&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Cookie&family=Cormorant+Upright:wght@300;400;500;600;700&family=Courgette&family=Crafty+Girls&family=Dancing+Script:wght@400..700&family=Engagement&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Meow+Script&family=Momo+Signature&family=Pacifico&family=Passions+Conflict&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+IN+Guides&family=Rochester&family=Style+Script&display=swap" rel="stylesheet">
+</head>
+    <!-- <body class="bg-[#0F172A]"> -->
+      <body>
+    
+   <!-- navbar start -->
+
+<nav class="bg-gray-800 fixed w-full z-20 top-0 start-0  border-default">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+  <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+      <span class="self-center text-3xl text-purple-400 font-semibold whitespace-nowrap heading">TheCatSite.</span>
+  </a>
+  <div class="inline-flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">       
+      <button type="button" class="text-white bg-purple-500 hover:bg-purple-400 box-border border border-transparent focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-3 py-2 focus:outline-none">Adopt Now</button>
+      <button data-collapse-toggle="navbar-cta" type="button" class="inline-flex items-center p-2 w-9 h-9 justify-center text-sm text-body rounded-base md:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-neutral-tertiary" aria-controls="navbar-cta" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/></svg>
+    </button>
+  </div>
+  <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
+    <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-default rounded-base bg-neutral-secondary-soft md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-neutral-primary">
+      <li>
+        <a href="#Home" class="block py-2 px-3 text-white  hover:text-purple-400 rounded md:bg-transparent md:text-fg-brand md:p-0" aria-current="page">Home</a>
+      </li>
+      <li>
+        <a href="#AdoptCats" class="block py-2 px-3 text-white  hover:text-purple-400 rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Adopt Cats</a>
+      </li>
+      <li>
+        <a href="#SuccessStories" class="block py-2 px-3 text-white hover:text-purple-400 rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Success Stories</a>
+      </li>
+      <li>
+        <a href="#AboutUs" class="block py-2 px-3 text-white  hover:text-purple-400 rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">About Us</a>
+      </li>
+        <a href="#Contact" class="block py-2 px-3 text-white  hover:text-purple-400 rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Contact</a>
+        </li>
+    </ul>
+  </div>
+  </div>
+</nav>  
+ <!-- navbar end -->
+<!-- Hero Section Start -->
+<section id="Home" class="text-gray-600 body-font">
+  <div class="container mx-auto flex px-5 py-12 md:py-20 
+              md:flex-row flex-col items-center gap-8">
+    <div class="w-full md:w-1/2 flex justify-center mb-6 md:mb-0">
+      <img
+        class="object-cover object-center w-full max-w-[350px] sm:max-w-[420px]  mt-5 ml-10 md:max-w-full h-auto md:h-[400px] lg:h-[450px] rounded-xl heroImg"
+        alt="Cute cat waiting for adoption"
+        src="images/heroImg1.jpg"
+      >
+    </div>
+    <div class="w-full md:w-1/2 flex flex-col items-center 
+                text-center md:items-start md:text-left 
+                md:pl-6 lg:pl-12">
+
+      <h1 class="title-font text-3xl sm:text-4xl lg:text-4xl 
+                 mb-4 font-bold text-gray-900 leading-tight">
+        Because Every Cat Deserves
+        <br class="hidden sm:block">
+        A Loving Home,
+        <br class="hidden sm:block">
+        Care, and Happiness
+      </h1>
+      <p class="mb-6 leading-relaxed text-base sm:text-1lg text-gray-600">
+        Every cat deserves a safe home, loving care, and a family to call
+        their own. Discover adorable cats waiting for adoption and help
+        give them the happy, healthy, and loving future they deserve.
+      </p>
+      <!-- <div class="flex justify-center md:justify-start">
+        <a href="#Adopt"
+           class="inline-flex items-center text-white bg-purple-500
+                  border-0 py-3 px-6 hover:bg-purple-600 rounded-lg
+                  text-base sm:text-lg transition duration-300">
+          Adopt Now 
+        </a>
+      </div> -->
+      <a href="#Adopt"
+   class="inline-flex items-center text-white bg-purple-500
+          py-3 px-6 rounded-lg text-lg
+          transform transition-transform duration-500
+          hover:translate-x-3 hover:bg-purple-600">
+  Adopt Now
+</a>
+    </div>
+  </div>
+</section>
+<!-- Hero Section End -->
+```
+
+<!-- hero section start -->
+  <!-- Adopt Cats section start -->
+   <center id="AdoptCats" class="text-gray-800 text-5xl font-bold">🐾Adopt Cats🐾</center>
+<section class="text-gray-600 body-font ">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap -m-4">
+      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a class="block relative h-48 rounded overflow-hidden">
+          <img alt="ecommerce" class=" object-center w-full h-full block imgs" src="images/luna 1.jpeg">
+        </a>
+        <div class="mt-4">
+        <h3 class="text-purple-500 text-2xs font-bold  tracking-widest title-font mb-1">AVAILABLE FOR ADOPTION</h3>
+<h2 class="text-gray-900 title-font text-lg font-medium heading2">Luna 🐱</h2>
+<p class="mt-1 text-gray-600">2 Years • Female • Friendly & Playful</p>
+        </div>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a class="block relative h-48 rounded overflow-hidden">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full block imgs" src="images/cat2.jpg">
+        </a>
+        <div class="mt-4">
+        <h3 class="text-purple-500 text-2xs font-bold tracking-widest title-font mb-1">AVAILABLE FOR ADOPTION</h3>
+<h2 class="text-white title-font text-lg font-medium heading2">Oliver 🐾</h2>
+<p class="mt-1 text-gray-600">1 Year • Male • Loves Cuddles</p>
+        </div>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a class="block relative h-48 rounded overflow-hidden">
+          <img alt="ecommerce" class=" object-center w-full h-full block imgs" src="images/cat3.jpg">
+        </a>
+        <div class="mt-4">
+        <h3 class="text-purple-500 text-2xs font-bold tracking-widest title-font mb-1">AVAILABLE FOR ADOPTION</h3>
+<h2 class="text-white title-font text-lg font-medium heading2">Milo 🐱</h2>
+<p class="mt-1 text-gray-600">3 Years • Male • Calm & Gentle</p>
+        </div>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a class="block relative h-48 rounded overflow-hidden">
+          <img alt="ecommerce" class=" object-cover object-center w-full h-full block imgs" src="images/cat4.jpg">
+        </a>
+        <div class="mt-4">
+          <h3 class="text-purple-500 text-2xs font-bold font-boldtracking-widest title-font mb-1">AVAILABLE FOR ADOPTION</h3>
+<h2 class="text-black title-font text-lg font-medium heading2">Bella 🐾</h2>
+<p class="mt-1 text-gray-600">6 Months • Female • Energetic & Cute</p>
+        </div>
+        <br><br>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a class="block relative h-48 rounded overflow-hidden">
+          <img alt="ecommerce" class="r object-center w-full h-full block imgs" src="images/cat5.jpg">
+        </a>
+        <div class="mt-4">
+         <h3 class="text-purple-500 text-2xs font-bold tracking-widest title-font mb-1">AVAILABLE FOR ADOPTION</h3>
+<h2 class="text-white title-font text-lg font-medium heading2">Leo 🐱</h2>
+<p class="mt-1 text-gray-600">2 Years • Male • Very Friendly</p>
+        </div>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a class="block relative h-48 rounded overflow-hidden">
+          <img alt="ecommerce" class=" object-center w-full h-full block imgs" src="images/cat6.jpg">
+        </a>
+        <div class="mt-4">
+         <h3 class="text-purple-500 text-2xs font-bold tracking-widest title-font mb-1">AVAILABLE FOR ADOPTION</h3>
+<h2 class="text-white title-font text-lg font-medium heading2">Nala 🐾</h2>
+<p class="mt-1 text-gray-600">1 Year • Female • Sweet & Loving</p>
+        </div>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a class="block relative h-48 rounded overflow-hidden">
+          <img alt="ecommerce" class=" object-center w-full h-full block imgs" src="images/cat7.jpg">
+        </a>
+        <div class="mt-4">
+         <h3 class="text-purple-500 text-2xs font-bold tracking-widest title-font mb-1">AVAILABLE FOR ADOPTION</h3>
+<h2 class="text-white title-font text-lg font-medium heading2">Simba 🐱</h2>
+<p class="mt-1 text-gray-600">4 Years • Male • Loyal Companion</p>
+        </div>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+        <a class="block relative h-48 rounded overflow-hidden">
+          <img alt="ecommerce" class=" object-center w-full h-full block h-auto  imgs" src="images/cat8.jpg">
+        </a>
+        <div class="mt-4">
+        <h3 class="text-purple-500 text-2xs font-bold tracking-widest title-font mb-1">AVAILABLE FOR ADOPTION</h3>
+<h2 class="text-white title-font text-lg font-medium heading2">Daisy 🐾</h2>
+<p class="mt-1 text-gray-600">8 Months • Female • Playful & Curious</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- Adopt Cats section end -->
+   <!-- Success Stories start -->
+<h2 id="SuccessStories"class="text-4xl font-bold text-center mb-4 ">
+  Happy Tails & Success Stories 🐾
+</h2>
+<p class="text-center text-gray-600 ">
+  Read how our adopted cats found loving homes and brought happiness to their new families.
+</p>
+
+
+<section class="text-gray-600 body-font ">
+  <div class="container px-5 py-24 mx-auto cardShadow">
+    <div class="flex flex-wrap -m-4">
+      <div class="p-4 md:w-1/3">
+        <div class="h-full border-2 border-none border-opacity-60 rounded-lg overflow-hidden card">
+          <img  class="lg:h-48 md:h-36 w-full h-auto object-center img2"src="images/luna 1.jpeg" alt="blog">
+          <div class="p-6 ">
+        <h2 class="tracking-widest text-xs title-font font-bold text-purple-600 mb-1">SUCCESS STORY</h2>
+<h1 class="title-font text-lg font-medium text-gray-900 mb-3">Sarah & Luna 🐱</h1>
+<p class="leading-relaxed mb-3">
+After adopting Luna, our home became full of happiness and love. She quickly became a beloved member of our family.
+</p>
+           <div class="flex items-center flex-wrap">
+  <a class="text-purple-500 inline-flex items-center md:mb-2 lg:mb-0 font-bold">
+    Read Story...
+  </a>
+
+  <div class="ml-auto">
+    <span class="text-yellow-400 text-lg">⭐⭐⭐⭐⭐</span>
+  </div>
+</div>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 md:w-1/3">
+        <div class="h-full border-2 border-none border-opacity-60 rounded-lg overflow-hidden card">
+          <img class="lg:h-48 md:h-36 w-full h-auto object-center img2" src="images/cat3.jpg" alt="blog">
+          <div class="p-6">
+          <h2 class="tracking-widest text-xs title-font font-bold text-purple-600 mb-1">SUCCESS STORY</h2>
+<h1 class="title-font text-lg font-medium text-gray-900 mb-3">Ahmed & Milo 🐾</h1>
+<p class="leading-relaxed mb-3">
+Milo is calm, friendly, and loves spending time with us. Adopting him was one of the best decisions we ever made.
+</p>
+           <div class="flex items-center flex-wrap">
+  <a class="text-purple-500 inline-flex items-center md:mb-2 lg:mb-0 font-bold">
+    Read Story...
+  </a>
+
+  <div class="ml-auto">
+    <span class="text-yellow-400 text-lg">⭐⭐⭐⭐⭐</span>
+  </div>
+</div>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 md:w-1/3">
+        <div class="h-full border-2 border-none border-opacity-60 rounded-lg overflow-hidden card">
+          <img class="lg:h-48 md:h-36 w-full h-auto object-center img2" src="images/cat6.jpg" alt="blog">
+          <div class="p-6">
+            <h2 class="tracking-widest text-xs font-bold title-font  text-purple-600 mb-1">SUCCESS STORY</h2>
+<h1 class="title-font text-lg font-medium text-gray-900 mb-3">Ayesha & Nala 💕</h1>
+<p class="leading-relaxed mb-3">
+Nala settled into her new home from day one. She brings joy, comfort, and endless cuddles to our family.
+</p><div class="flex items-center flex-wrap">
+  <a class="text-purple-500 inline-flex items-center md:mb-2 lg:mb-0 font-bold">
+    Read Story...
+  </a>
+
+  <div class="ml-auto">
+    <span class="text-yellow-400 text-lg">⭐⭐⭐⭐⭐</span>
+  </div>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ <!-- Success Stories end -->
+<!-- About Us Section -->
+<section id="AboutUs" class="bg-purple-50 py-20 px-6">
+  <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
+    <div class="md:w-1/2">
+      <h2 class="text-4xl font-bold text-purple-600 mb-6">
+        About TheCatSite 🐾
+      </h2>
+
+      <p class="text-gray-700 text-lg leading-8 mb-6">
+        At TheCatSite, we believe every cat deserves a loving home.
+        Our mission is to help homeless cats find caring families,
+        provide them with love and care, and give them a happy future.
+      </p>
+
+      <button class=" btn2 bg-purple-500 hover:bg-purple-700
+      text-white px-6 py-3 rounded-full transition duration-300">
+        Learn More 
+      </button>
+    </div>
+<div>
+  <video src="images/catVideo.mp4" muted autoplay loop playsinline class="about-video"></video>
+</div>
+  </div>
+</section>
+<!-- About Us Section end-->
+<!-- contact us start -->
+<section id="Contact" class="text-gray-300 body-font relative bg-gray-800">
+  <div class="container px-5 py-24 mx-auto">
+
+    <div class="flex flex-col text-center w-full mb-12">
+      <p class="text-purple-400 text-sm font-semibold tracking-widest uppercase mb-3">
+         We'd Love To Hear From You
+      </p>
+
+      <h1 class="sm:text-4xl text-3xl font-bold mb-4 text-purple-400">
+        Contact Us
+      </h1>
+
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-300">
+        Have questions about cat adoption or need help finding your
+        purr-fect companion? We're always happy to help you give a
+        lovely cat a forever home. 
+      </p>
+    </div>
+
+    <div class="lg:w-1/2 md:w-2/3 mx-auto">
+      <div class="flex flex-wrap -m-2">
+
+        <div class="p-2 w-1/2">
+          <label for="name" class="leading-7 text-sm text-purple-400">
+            Your Name
+          </label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            class="w-full bg-[#1E293B] rounded-lg border border-slate-600 focus:border-purple-500 focus:ring-2 focus:ring-pink-200/20 text-white py-2 px-3 outline-none transition duration-300"
+          >
+        </div>
+
+        <div class="p-2 w-1/2">
+          <label for="email" class="leading-7 text-sm text-purple-400">
+            Email Address
+          </label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            class="w-full bg-[#1E293B] rounded-lg border border-slate-600 focus:border-purple-500 focus:ring-2 focus:ring-pink-200/20 text-white py-2 px-3 outline-none transition duration-300"
+          >
+        </div>
+
+        <div class="p-2 w-full">
+          <label for="subject" class="leading-7 text-sm text-purple-400">
+            Subject
+          </label>
+          <input
+            type="text"
+            id="subject"
+            name="subject"
+            placeholder="Cat adoption, volunteering, or something else?"
+            class="w-full bg-[#1E293B] rounded-lg border border-slate-600 focus:border-purple-500 focus:ring-2 focus:ring-pink-200/20 text-white py-2 px-3 outline-none transition duration-300"
+          >
+        </div>
+
+        <div class="p-2 w-full">
+          <label for="message" class="leading-7 text-sm text-purple-400">
+            Your Message
+          </label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Write your message here..."
+            class="w-full bg-[#1E293B] rounded-lg border border-slate-600 focus:border-purple-400 focus:ring-2 focus:ring-pink-200/20 h-32 text-white py-2 px-3 outline-none resize-y transition duration-300"
+          ></textarea>
+        </div>
+
+        <div class="p-2 w-full">
+          <button
+            type="button"
+            class="flex mx-auto text-white bg-purple-500 border-0 py-3 px-10 focus:outline-none hover:border-purple-500 hover:scale-105 transition duration-300 rounded-full text-base font-semibold shadow-lg shadow-pink-300/10"
+          >
+            Send Message 
+          </button>
+        </div>
+        <div class="p-2 w-full pt-8 mt-8 border-t border-slate-700 text-center">
+
+          <h2 class="text-xl font-semibold text-purple-400 mb-3">
+            Let's Make Tails Wag! 
+          </h2>
+
+          <p class="leading-relaxed text-gray-400 mb-4">
+            Every little message brings us one step closer to helping
+            cats find their loving forever homes.
+          </p>
+
+          <a href="mailto:hello@whiskerbloom.com"
+             class="text-purple-400 hover:text-purple-200 transition">
+            zunairamohsin76@gmail.com
+          </a>
+
+          <p class="leading-relaxed my-4 text-gray-400">
+            Made with love for every little paw 
+            <br>
+            TheCatSite — Every Cat Deserves A Loving Home.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- contact us end -->
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
+
+</html>
